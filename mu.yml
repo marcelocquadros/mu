@@ -11,4 +11,4 @@ service:
       provider: GitHub
       repo: marcelocquadros/mu
     build:
-      image: test-nginx
+      image: aws/codebuild/nginx
