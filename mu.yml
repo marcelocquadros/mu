@@ -1,0 +1,11 @@
+environments:
+- name: acceptance
+service:
+  port: 80
+  healthEndpoint: /
+  pathPatterns:
+  - /*
+  pipeline:
+    source:
+      provider: GitHub
+      repo: marcelocquadros/mu
