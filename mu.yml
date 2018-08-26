@@ -10,3 +10,5 @@ service:
     source:
       provider: GitHub
       repo: marcelocquadros/mu
+    build:
+      image: test-nginx
