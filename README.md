@@ -1,3 +1,3 @@
 # mu
 mu test aws
-- Create a aws env and deploy automation usin mu.
+- Create a aws env and deploy automation using mu.
